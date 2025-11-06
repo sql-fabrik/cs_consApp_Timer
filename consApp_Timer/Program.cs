@@ -10,10 +10,10 @@
 
     public class Person
     {
-        public string? Name { get; set; }   // vs. required ...
-        public int? Alter { get; set; }   // property is Nullable
+        public string? Name  { get; set; }   // vs. required ...
+        public int?    Alter { get; set; }   // property is Nullable
         public string? Stadt { get; set; }
-        public string? Inst { get; set; }   // InstanceName
+        public string? Inst  { get; set; }   // InstanceName
 
         public string NameAndCity()
         {
@@ -62,4 +62,5 @@
     }
 
 }
+
 //----
